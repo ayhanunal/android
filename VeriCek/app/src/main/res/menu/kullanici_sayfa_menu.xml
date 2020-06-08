@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/kullaniciBilgiDuzenle" android:title="Bilgilerimi Görüntüle"></item>
+    <item android:id="@+id/kullaniciSinavaGir" android:title="Sınava Gir"></item>
+    <item android:id="@+id/kullaniciSinavSonuc" android:title="Sınav Sonuçlarım"></item>
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/toplamKullanicilarGit" android:title="Sistemdeki Toplam Kullanıcılar"></item>
+    <item android:id="@+id/bekleyenKullanicilarGit" android:title="Onay Bekleyen Kullanıcılar"></item>
+    <item android:id="@+id/sinavSayfasinaGit" android:title="Sınavlar"></item>
+
+    <item android:id="@+id/yetkiliCikis" android:title="Çıkış Yap"></item>
+
+</menu>

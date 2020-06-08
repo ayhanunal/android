@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851315871810",
+    "firebase_url": "https://vericek-b1c42.firebaseio.com",
+    "project_id": "vericek-b1c42",
+    "storage_bucket": "vericek-b1c42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851315871810:android:be5e37bd6f69ca86f9dddb",
+        "android_client_info": {
+          "package_name": "com.ayhanunal.vericek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851315871810-h063bkb4aan9j7m4skn1t94osua0jo9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMt3gRs-NPkU8nNBPjK0SWjYotuLjmEp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851315871810-h063bkb4aan9j7m4skn1t94osua0jo9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

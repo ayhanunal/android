@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciSinavBaslat">
+
+    <Button
+        android:id="@+id/sinavBaslatStartButton"
+        android:layout_width="182dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="115dp"
+        android:onClick="sinavBaslat"
+        android:text="Sınavı Başlat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sinavBaslatDersAdText" />
+
+    <TextView
+        android:id="@+id/sinavBaslatDersAdText"
+        android:layout_width="299dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Ders Adı"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sinavBaslatSureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:text="Süre = 15:00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sinavBaslatStopButton"
+        android:layout_width="182dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="60dp"
+        android:onClick="sinavBitir"
+        android:text="Sınavı Bitir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sinavBaslatSonrakiButton" />
+
+    <TextView
+        android:id="@+id/sinavBaslatSoruText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sinavBaslatStartButton" />
+
+    <RadioGroup
+        android:id="@+id/sinavBaslatCevapGroup"
+        android:layout_width="386dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sinavBaslatSoruText">
+
+        <RadioButton
+            android:id="@+id/sinavBaslatRadioA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/sinavBaslatRadioB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/sinavBaslatRadioC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/sinavBaslatRadioD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RadioButton" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sinavBaslatSonrakiButton"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="131dp"
+        android:onClick="sonrakiSoru"
+        android:text="Sonraki Soru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sinavBaslatCevapGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

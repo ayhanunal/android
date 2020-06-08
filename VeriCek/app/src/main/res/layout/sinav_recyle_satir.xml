@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="--------------------------------------------------------------------------------------------------"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/yetSinavAdiText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sınav Adı :"
+        android:textAlignment="center"
+        android:paddingTop="5dp"/>
+
+    <TextView
+        android:id="@+id/yetSinavDurumText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Durumu : "
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/yetSinavKullaniciText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanici Sayisi :"
+        android:textAlignment="center"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="--------------------------------------------------------------------------------------------------"
+        android:textAlignment="center" />
+
+
+</LinearLayout>

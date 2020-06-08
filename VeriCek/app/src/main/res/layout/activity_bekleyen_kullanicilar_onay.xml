@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BekleyenKullanicilarOnay">
+
+    <Button
+        android:id="@+id/kulOnayKabulButton"
+        android:layout_width="179dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="17dp"
+        android:onClick="onayla"
+        android:text="Onayla"
+        app:layout_constraintBottom_toTopOf="@+id/kulOnayRedButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onaySifreText" />
+
+    <TextView
+        android:id="@+id/onaySifreText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Şifre :"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/kulOnayKabulButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onayTcText" />
+
+    <TextView
+        android:id="@+id/onayAdText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="İsim :"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/onaySoyadText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/onayMailText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="17dp"
+        android:gravity="center"
+        android:text="E-mail :"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/onayTcText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onaySoyadText" />
+
+    <TextView
+        android:id="@+id/onayTcText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="13dp"
+        android:gravity="center"
+        android:text="Tc :"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/onaySifreText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onayMailText" />
+
+    <TextView
+        android:id="@+id/onaySoyadText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="Soyad :"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/onayMailText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onayAdText" />
+
+    <Button
+        android:id="@+id/kulOnayRedButton"
+        android:layout_width="179dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="133dp"
+        android:onClick="reddet"
+        android:text="Reddet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kulOnayKabulButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

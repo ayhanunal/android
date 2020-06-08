@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciBilgileriGoruntule">
+
+    <EditText
+        android:id="@+id/kulBilDuzEmailText"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilDuzTcText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/kulBilDuzSoyadText"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="soyisim"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilDuzYeniSifreText"
+        app:layout_constraintStart_toStartOf="@+id/kulBilDuzAdText"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilDuzAdText" />
+
+    <EditText
+        android:id="@+id/kulBilDuzAdText"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="isim"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilDuzSoyadText"
+        app:layout_constraintStart_toStartOf="@+id/kulBilDuzTcText"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilDuzTcText" />
+
+    <EditText
+        android:id="@+id/kulBilDuzTcText"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="tc"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilDuzAdText"
+        app:layout_constraintStart_toStartOf="@+id/kulBilDuzEmailText"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilDuzEmailText" />
+
+    <EditText
+        android:id="@+id/kulBilDuzYeniSifreText"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="54dp"
+        android:ems="10"
+        android:hint="Yeni Şifre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilDuzEskiSifre"
+        app:layout_constraintStart_toStartOf="@+id/kulBilDuzSoyadText"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilDuzSoyadText" />
+
+    <EditText
+        android:id="@+id/kulBilDuzEskiSifre"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="37dp"
+        android:ems="10"
+        android:hint="Eski Şifre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilDuzKaydetButton"
+        app:layout_constraintEnd_toEndOf="@+id/kulBilDuzYeniSifreText"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilDuzYeniSifreText" />
+
+    <Button
+        android:id="@+id/kulBilDuzKaydetButton"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="119dp"
+        android:onClick="bilgilerimiGuncelle"
+        android:text="Bilgilerimi Güncelle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilDuzEskiSifre" />
+</androidx.constraintlayout.widget.ConstraintLayout>
