@@ -1,0 +1,65 @@
+[
+    {
+        "name": "ARDA ERMAN",
+        "dist": "ÇANKAYA",
+        "address": "YUKARI BAHÇELIEVLER MAH. TAŞKENT CAD. NO:106/A",
+        "phone": "3122121131",
+        "loc": "39.922081,32.831088"
+    },
+    {
+        "name": "AKER",
+        "dist": "ÇANKAYA",
+        "address": "MUTLUKENT MAH.ANGORA BULVARI NO:54/A",
+        "phone": "3122858222",
+        "loc": "39.891772,32.723172"
+    },
+    {
+        "name": "ÇANKAYA",
+        "dist": "ÇANKAYA",
+        "address": "AYRANCI MAH.HOŞDERE CAD. NO:47/A",
+        "phone": "3124729709",
+        "loc": "39.899096,32.849072"
+    },
+    {
+        "name": "NURDAN",
+        "dist": "ÇANKAYA",
+        "address": "ESATOGLU MAH. ESAT CAD. NO:87/A",
+        "phone": "3124198750",
+        "loc": "39.90974,32.86344"
+    },
+    {
+        "name": "KIVILCIM",
+        "dist": "ÇANKAYA",
+        "address": "DIKMEN CAD. NO:191/B",
+        "phone": "3124822828",
+        "loc": "39.886117,32.840157"
+    },
+    {
+        "name": "UYDUKENT",
+        "dist": "ÇANKAYA",
+        "address": "ALACAATLI MAH. ALACAATLI CAD. NO:201/A",
+        "phone": "3122391007",
+        "loc": "39.845622,32.673989"
+    },
+    {
+        "name": "DİLEKCAN",
+        "dist": "ÇANKAYA",
+        "address": "MALTEPE MAH. ONUR SOK. NO:31/13 KIZILAY",
+        "phone": "3122315623",
+        "loc": "39.92902803,32.84458884"
+    },
+    {
+        "name": "LAL",
+        "dist": "ÇANKAYA",
+        "address": "Şemsettin Günaltay Cad. No:300/C Kırkkonaklar/Çankaya/ANKARA",
+        "phone": "3124962016",
+        "loc": "39.891639,32.885777"
+    },
+    {
+        "name": "MAVİ DÜŞ",
+        "dist": "ÇANKAYA",
+        "address": "OĞUZLAR MAH. ÇETİN EMEÇ BULVARI NO:64/A",
+        "phone": "3122205395",
+        "loc": "39.897556,32.816728"
+    }
+]
